@@ -1,0 +1,31 @@
+extends ../base/layout.pug
+include ./mixin
+
+block main
+    .grid
+        .grid__cell(class="1/2")
+            .effectsweet
+                .effectsweet__background
+                    img(class="effectsweet__img" src="../../image/11.jpg" alt="img11" width="480" height="360")
+                .effectsweet__content
+                    h2.effectsweet__content-title sweet <span class="effect__marley-bold">marley</span>
+                    .effectsweet__bar
+                    p.effectsweet__content-footer texte awesome effect, Put your description here
+        .grid__cell(class="1/2")
+            .effectfree
+                .effectfree__background
+                    img(class="effectfree__img" src="../../image/13.jpg" alt="img13"  width="480" height="360")
+                .effectfree__content
+                  h2.effectfree__content-title free sarah
+                  .effectfree__bar
+                  p.effectfree__content-body Every one like see a cloud, its an evasion
+    .grid
+        .grid__cell(class="1/2")
+            .effectglowing
+                .effectglowing__background
+                    img(class="effectglowing__img" src="../../image/14.jpg" alt="img14"  width="480" height="360")
+                .effectglowing__content
+                  h2.effectglowing__content-title glowing ruby
+                  .effectglowing__bar
+                  p.effectglowing__content-body Every one like see a cloud, its an evasion
+        .grid__cell(class="1/2")
